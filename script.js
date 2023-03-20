@@ -26,7 +26,7 @@ function onTodoListContainerClicked(event){
         targetElement.classList.remove("completed");
     }
 }
-
+ 
 // S3 link event to handler
 addTaskButton.addEventListener('click', onAddTaskClicked)
 todoListContainer.addEventListener('click', onTodoListContainerClicked);
